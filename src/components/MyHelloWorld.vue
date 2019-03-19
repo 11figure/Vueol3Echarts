@@ -10,7 +10,7 @@
 // var oe = new ADLayer(option, map, echarts)
 // oe.render()
 export default {  
-  name: "HelloWorld",
+  name: "MyHelloWorld",
   mounted() {
     this.chart = echarts.init(document.getElementById("chart"));
     this.initData();
