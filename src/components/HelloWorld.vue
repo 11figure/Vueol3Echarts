@@ -5,12 +5,7 @@
   </div>
 </template>
 <script>
-      import Map from 'ol/Map.js';
-      import View from 'ol/View.js';
-      import {getWidth, getCenter} from 'ol/extent.js';
-      import {Image as ImageLayer, Tile as TileLayer} from 'ol/layer.js';
-      import {fromLonLat, toLonLat} from 'ol/proj.js';
-      import {ImageCanvas as ImageCanvasSource, Stamen} from 'ol/source.js';
+
 // var oe = new ADLayer(option, map, echarts)
 // oe.render()
 export default {  
